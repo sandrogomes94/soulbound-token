@@ -1,0 +1,32 @@
+{
+  "name": "soulbound-token",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "start": "npx hardhat node",
+    "deploy": "npx hardhat run scripts/sample-script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandrogomes94/soulbound-token.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sandrogomes94/soulbound-token/issues"
+  },
+  "homepage": "https://github.com/sandrogomes94/soulbound-token#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.6",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@openzeppelin/contracts": "^4.6.0",
+    "chai": "^4.3.6",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.6.8",
+    "hardhat": "^2.9.9"
+  }
+}
